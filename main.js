@@ -6,8 +6,8 @@ const cellSize = 100;
 
 const empty = {
     value: 0,
-    bottom: 0,
-    right: 0
+    top: 0,
+    left: 0
 };
 
 const cells = [];
@@ -17,28 +17,27 @@ function move(index) {
 
     const cell = cells[index];
 
-    const rightDiff = Math.abs(empty.right - cell.right);
-    const bottomDiff = Math.abs(empty.bottom - cell.bottom);
+    const leftDiff = Math.abs(empty.left - cell.left);
+    const topDiff = Math.abs(empty.top - cell.top);
 
-    if (rightDiff + bottomDiff > 1) {
+    if (leftDiff + topDiff > 1) {
         return;
     }
 
-    cell.element.style.right = `${empty.right * cellSize}px`;
-    cell.element.style.bottom = `${empty.bottom * cellSize}px`;
+    cell.element.style.left = `${empty.left * cellSize}px`;
+    cell.element.style.top = `${empty.top * cellSize}px`;
 
-    const emptyRight = empty.right;
-    const emptyBottom = empty.bottom;
+    const emptyLeft = empty.left;
+    const emptyTop = empty.top;
 
-    empty.right = cell.right;
-    empty.bottom = cell.bottom;
+    empty.left = cell.left;
+    empty.top = cell.top;
 
-    cell.right = emptyRight;
-    cell.bottom = emptyBottom;
+    cell.left = emptyLeft;
+    cell.top = emptyTop;
 
     const isFinished = cells.every(cell => {
-        console.log(cell.value, cell.bottom,cell.right);
-        return cell.value === (cell.bottom * 4 + cell.right + 1);
+        return cell.value === (cell.top * 4 + (cell.left + 1));
     });
 
     if (isFinished) {
@@ -54,22 +53,22 @@ for (let i = 1; i <= 15; i++) {
     cell.className = 'cell';
     cell.innerHTML = value;
 
-    const right = i % 4;
-    const bottom = (i - right) / 4;
+    const left = i % 4;
+    const top = (i - left) / 4;
 
     cells.push({
         value: value,
-        right: right,
-        bottom: bottom,
+        left: left,
+        top: top,
         element: cell
     });
 
-    cell.style.right = `${right * cellSize}px`;
-    cell.style.bottom = `${bottom * cellSize}px`;
+    cell.style.left = `${left * cellSize}px`;
+    cell.style.top = `${top * cellSize}px`;
 
     field.append(cell);
 
     cell.addEventListener('click', () => {
         move(i);
     });
-}            
+}
