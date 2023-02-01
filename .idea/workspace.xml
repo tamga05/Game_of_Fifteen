@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aebeafc3-588d-4823-90f8-fef28ab84738" name="Changes" comment="refactoring code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    <list default="true" id="aebeafc3-588d-4823-90f8-fef28ab84738" name="Changes" comment="added styles code">
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +81,7 @@
       <workItem from="1675164773132" duration="1094000" />
       <workItem from="1675165887758" duration="53000" />
       <workItem from="1675165955622" duration="455000" />
-      <workItem from="1675229360901" duration="1862000" />
+      <workItem from="1675229360901" duration="2181000" />
     </task>
     <task id="LOCAL-00001" summary="finished markup, logic and styles">
       <created>1675104191320</created>
@@ -113,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675163245666</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added styles code">
+      <created>1675231397551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675231397551</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished markup, logic and styles" />
     <MESSAGE value="refactoring code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
+    <MESSAGE value="added styles code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added styles code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -145,7 +151,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/main.js</url>
-          <line>43</line>
+          <line>39</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
