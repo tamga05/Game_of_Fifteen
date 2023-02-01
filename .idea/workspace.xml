@@ -7,6 +7,7 @@
     <list default="true" id="aebeafc3-588d-4823-90f8-fef28ab84738" name="Changes" comment="refactoring code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,14 @@
       <workItem from="1675107912961" duration="632000" />
       <workItem from="1675146314659" duration="10973000" />
       <workItem from="1675162587074" duration="106000" />
-      <workItem from="1675162709636" duration="503000" />
+      <workItem from="1675162709636" duration="565000" />
+      <workItem from="1675163305025" duration="1287000" />
+      <workItem from="1675164615983" duration="11000" />
+      <workItem from="1675164668906" duration="89000" />
+      <workItem from="1675164773132" duration="1094000" />
+      <workItem from="1675165887758" duration="53000" />
+      <workItem from="1675165955622" duration="455000" />
+      <workItem from="1675229360901" duration="1862000" />
     </task>
     <task id="LOCAL-00001" summary="finished markup, logic and styles">
       <created>1675104191320</created>
@@ -98,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675162669480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactoring code">
+      <created>1675163245666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675163245666</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +142,11 @@
           <url>file://$PROJECT_DIR$/main.js</url>
           <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/main.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

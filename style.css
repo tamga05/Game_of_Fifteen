@@ -1,4 +1,4 @@
-.background{
+.background {
     background: #ffebf1;
 }
 
@@ -16,7 +16,7 @@
     border-radius: 8px;
     background: #ffc8d6;
     position: relative;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cell {
@@ -36,4 +36,8 @@
     cursor: pointer;
     /*-webkit-text-stroke: 1px grey;*/
     transition: all 0.3s;
+}
+
+.cell:hover {
+    background: lightgrey;
 }
